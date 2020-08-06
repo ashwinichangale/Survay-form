@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    
+    <div id="header">
+      <h1>Student Survey Form</h1>
+    </div>
+    
+
+      <form>
+        <div id="form-field">
+          <br>
+          <div id="inner-form-field">
+            
+            <label id="name-label" for="name">What's your name?</label><br>
+            <input type="text" class="text-fields" name="name" id="name" placeholder="Enter your name.." required>
+
+            <br><br>
+            <label id="email-label" for="email">What's your email address?</label><br>
+            <input type="email" class="text-fields" name="email" id="email" placeholder="Enter your email address.." required>
+
+            <br><br>
+            <label id="age-label" for="age">What's your age?</label><br>
+            <input type="number" class="text-fields" name="age" id="age" placeholder="Enter your age.." required>
+
+            <br><br>
+            <label id="select-label" for="year">Select your year</label>
+            <select class="text-fields">
+              <option value="select year">Select Year</option>
+              <option value="1st Year">1st Year</option>
+              <option value="2nd Year">2nd Year</option>
+              <option value="3rd Year">3rd Year</option>
+            </select>
+
+            <br><br>
+            <label id="select-gender" for="gender">Select gender</label><br>
+            <b><p><input type="radio" name="gender" class="text-fields" required>&nbsp;Male</p>
+            <p><input type="radio" name="gender" class="text-fields" required>&nbsp;Female</p></b>
+
+            <br>
+            <label id="choose-subjects" for="subjects">Check the subjects which you know</label><br>
+            <p><input type="Checkbox" name="python" value="python" required>&nbsp;Python</p>
+            <p><input type="Checkbox" name="html" value="html" required>&nbsp;HTML</p>
+            <p><input type="Checkbox" name="Javascript" value="Javascript" required> &nbsp;Javascript</p>
+
+            <br><br>
+            <button name="submit" value="submit" class="text-fields">submit</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>
